@@ -57,6 +57,7 @@ LEVEL INFO / WARNING / ERROR / DEBUG
 COMPONENT System module name
 MESSAGE Log message
 ID UUID (v4 recommended)
+
 ⚙️ Installation & Setup
 1️⃣ Clone / Extract Project
 unzip log_analysis_project.zip
@@ -78,7 +79,6 @@ uvicorn app.main:app --reload
 Once running, open:
 
 http://127.0.0.1:8000/docs
-
 
 This provides:
 
@@ -126,7 +126,6 @@ Sample Response
 
 🔹 Get Log by ID
 GET /logs/{log_id}
-
 
 Returns 404 if the log is not found.
 
@@ -207,4 +206,4 @@ Efficient file processing
 
 Real-world API design
 
-Production-ready code practicesd
+Production-ready code practices
